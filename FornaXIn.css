@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #040917;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+section {
+  width: 1250px;
+  height: 580px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 0px #000000;
+  backdrop-filter: blur(20px);
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elipse1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 90px solid rgba(255, 255, 255, 0.1);
+  top: -80px;
+  left: -70px;
+}
+.elipse2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 90px solid rgba(0, 255, 174, 0.3);
+  left: 1067px;
+  top: 150px;
+}
+.LogIn {
+  width: 400px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 27%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.email {
+  position: absolute;
+  top: 60px;
+  font-family: Poppins;
+  font-size: 30px;
+  color: #ffffff;
+  left: 54px;
+}
+.emailInput {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: Poppins;
+  font-size: 30px;
+  top: 120px;
+  background: #00ffae;
+  box-sizing: border-box;
+  box-shadow: -10px -10px 50px rgba(0, 0, 0, 0.25),
+    inset -10px -10px 50px rgba(255, 255, 255, 0.3),
+    inset 10px 10px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.password {
+  position: absolute;
+  top: 180px;
+  font-family: Poppins;
+  font-size: 30px;
+  color: #ffffff;
+  left: 54px;
+}
+.passwordInput {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  outline: none;
+  color: black;
+  font-family: Poppins;
+
+  font-size: 30px;
+  top: 240px;
+  background: #00ffae;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: -10px -10px 50px rgba(0, 0, 0, 0.25),
+    inset -10px -10px 50px rgba(255, 255, 255, 0.3),
+    inset 10px 10px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  background: #00ffae;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: -10px -10px 50px rgba(0, 0, 0, 0.25),
+    inset -10px -10px 50px rgba(255, 255, 255, 0.3),
+    inset 10px 10px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  bottom: 20px;
+  position: absolute;
+  font-size: 20px;
+  font-family: Poppins;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+}
+footer p {
+  font-size: 20px;
+  color: white;
+  font-family: Poppins;
+}
+footer a {
+  font-size: 25px;
+  color: #00ffae;
+  font-family: Poppins;
+  text-decoration: none;
+}
